@@ -2,39 +2,6 @@
     APPLICATION : TreeGenApp Project Overview
 ========================================================================
 
-AppWizard has created this TreeGenApp Application for you.  
-
-This file contains a summary of what you will find in each of the files that
-make up your TreeGenApp application.
-
-TreeGenApp.vcxproj
-    This is the main project file for VC++ projects generated using an Application Wizard. 
-    It contains information about the version of Visual C++ that generated the file, and 
-    information about the platforms, configurations, and project features selected with the
-    Application Wizard.
-
-TreeGenApp.vcxproj.filters
-    This is the filters file for VC++ projects generated using an Application Wizard. 
-    It contains information about the association between the files in your project 
-    and the filters. This association is used in the IDE to show grouping of files with
-    similar extensions under a specific node (for e.g. ".cpp" files are associated with the
-    "Source Files" filter).
-
-TreeGenApp.cpp
-    This is the main application source file.
-    Contains the code to display the form.
-
-Form1.h
-    Contains the implementation of your form class and InitializeComponent() function.
-
-AssemblyInfo.cpp
-    Contains custom attributes for modifying assembly metadata.
-
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
-
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named TreeGenApp.pch and a precompiled types file named StdAfx.obj.
-
-/////////////////////////////////////////////////////////////////////////////
+This application has the purpose of generating 3d-models of trees using a L-system, it is implemented using C++. 
+It consists of both the generation of the trees, as well as realtime rendering of the generated trees.
+The realtime rendering was implemented using the OpenGL API.
